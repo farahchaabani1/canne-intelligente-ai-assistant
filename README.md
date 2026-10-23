@@ -98,7 +98,7 @@ flutter run
 
 <!-- Replace the URL below with your actual demonstration video link -->
 
-[Watch the Demo Video](YOUR_VIDEO_URL_HERE)
+[Watch the Demo Video](assets/videos/Simulation.mp4)
 
 ## Current Limitations
 
@@ -113,5 +113,3 @@ flutter run
 Master's Student in Advanced Robotics and Artificial Intelligence.
 
 **Interests:** Artificial Intelligence, Computer Vision, Applied AI, and Software Development.
-
-**GitHub:** [farahchaabani1](https://github.com/farahchaabani1)
