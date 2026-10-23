@@ -1,0 +1,16 @@
+{
+  "name": "assistant-vision-lite-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.8",
+    "express": "^4.21.0"
+  }
+}

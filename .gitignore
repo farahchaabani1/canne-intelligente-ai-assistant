@@ -1,0 +1,58 @@
+
+# =========================================
+# CANNE INTELLIGENTE - GITIGNORE
+# =========================================
+
+# Secrets et clés API
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Node.js / Express
+node_modules/
+npm-debug.log*
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+
+# Android
+android/local.properties
+*.jks
+*.keystore
+*.hprof
+
+# Fichiers temporaires
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+*.iml
+
+# VS Code : conserver les réglages utiles
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# Gradle
+.gradle/
+
+# Arborescence locale
+structure_projet.txt
+
+# Ignorer le package-lock inutile à la racine
+/package-lock.json
