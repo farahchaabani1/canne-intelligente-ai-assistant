@@ -1,17 +1,117 @@
-# canne_intelligente
 
-A new Flutter project.
+# Canne Intelligente — AI-Powered Assistive Mobile Application
+
+**An AI-powered mobile application designed to assist visually impaired users through voice interaction, real-time object detection, and intelligent scene descriptions.**
+
+## Project Overview
+
+**Canne Intelligente** is an assistive mobile application developed with **Flutter**, integrating computer vision, speech technologies, and generative AI to help visually impaired users interact with and understand their surroundings.
+
+The application combines **YOLO26n** for on-device object detection and **Google Gemini** for conversational assistance and image understanding.
+
+## Key Features
+
+- **Voice Assistant:** Speech-to-Text (STT), Text-to-Speech (TTS), and AI-powered conversations.
+- **Real-Time Object Detection:** Camera-based object detection using YOLO26n, with spoken feedback in French.
+- **AI Scene Description:** Natural-language descriptions of images using Gemini Vision.
+- **Accessible Interface:** Simple interactions designed to reduce reliance on visual navigation.
+
+## System Architecture
+
+The application uses a hybrid architecture combining on-device AI and cloud-based intelligence.
+
+- **On-device:** Flutter → Camera → YOLO26n → Detected Objects → Voice Feedback
+- **Cloud-based:** Flutter → Node.js / Express → Gemini API → AI Response → Voice Output
+
+### Architecture Diagram
+
+<!-- Add your Miro architecture diagram here -->
+
+![System Architecture](assets/architecture.png)
+
+## Technologies Used
+
+| Category | Technologies |
+|---|---|
+| Mobile Development | Flutter, Dart |
+| Computer Vision | YOLO26n, Ultralytics YOLO |
+| Generative AI | Google Gemini API |
+| Backend | Node.js, Express.js |
+| Voice Interaction | Speech-to-Text, Text-to-Speech |
+| Development Tools | VS Code, Git, GitHub |
+
+## Project Structure
+
+```text
+canne-intelligente-ai-assistant/
+├── android/
+├── backend/
+│   ├── server.js
+│   └── package.json
+├── lib/
+│   ├── main.dart
+│   ├── assistant_api.dart
+│   ├── assistant_screen.dart
+│   ├── voice_service.dart
+│   └── vision/
+│       ├── vision_api.dart
+│       ├── vision_screen.dart
+│       └── yolo_service.dart
+├── pubspec.yaml
+└── README.md
+```
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+**Prerequisites:** Flutter SDK, Node.js, npm, Android device, and Google Gemini API key.
 
-A few resources to get you started if this is your first Flutter project:
+```bash
+git clone https://github.com/farahchaabani1/canne-intelligente-ai-assistant.git
+cd canne-intelligente-ai-assistant
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+# Install backend dependencies
+cd backend
+npm install
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Install Flutter dependencies
+cd ..
+flutter pub get
+```
+
+Configure the backend environment variables and mobile-to-backend connectivity before running the application. Keep API keys private.
+
+```bash
+flutter run
+```
+
+## Demonstration
+
+### Mobile Application
+
+<!-- Add screenshots to assets/screenshots/ -->
+
+| Voice Assistant | Object Detection | Scene Description |
+|---|---|---|
+| ![Voice Assistant](assets/screenshots/voice-assistant.png) | ![Object Detection](assets/screenshots/object-detection.png) | ![Scene Description](assets/screenshots/scene-description.png) |
+
+### Demo Video
+
+<!-- Replace the URL below with your actual demonstration video link -->
+
+[Watch the Demo Video](YOUR_VIDEO_URL_HERE)
+
+## Current Limitations
+
+- Gemini-powered features require internet connectivity.
+- Object detection performance depends on supported object classes.
+- The application is a prototype.
+
+## Author
+
+**Farah Chaabani**
+
+Master's Student in Advanced Robotics and Artificial Intelligence.
+
+**Interests:** Artificial Intelligence, Computer Vision, Applied AI, and Software Development.
+
+**GitHub:** [farahchaabani1](https://github.com/farahchaabani1)
