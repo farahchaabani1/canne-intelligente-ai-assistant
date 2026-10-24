@@ -5,7 +5,7 @@
 
 ## 1. Project Overview
 
-**Canne Intelligente** is an assistive mobile application developed with **Flutter**, integrating computer vision, speech technologies, and generative AI to help visually impaired users interact with and understand their surroundings.
+**VisiWay** is an assistive mobile application developed with **Flutter**, integrating computer vision, speech technologies, and generative AI to help visually impaired users interact with and understand their surroundings.
 
 The application combines **YOLO26n** for on-device object detection and **Google Gemini** for conversational assistance and image understanding.
 
@@ -24,8 +24,6 @@ The application uses a hybrid architecture combining on-device AI and cloud-base
 - **Cloud-based:** Flutter → Node.js / Express → Gemini API → AI Response → Voice Output
 
 ### Architecture Diagram
-
-<!-- Add your Miro architecture diagram here -->
 
 ![System Architecture](assets/architecture.png)
 
@@ -88,11 +86,9 @@ flutter run
 
 ### Mobile Application
 
-<!-- Add screenshots to assets/screenshots/ -->
-
 | Voice Assistant | Object Detection | Scene Description |
 |---|---|---|
-| ![Voice Assistant](assets/screenshots/voice-assistant.jpeg) | ![Object Detection](assets/screenshots/object-detection.png) | ![Scene Description](assets/screenshots/scene-description.png) |
+| ![Voice Assistant](assets/screenshots/voice-assistant.jpeg) | ![Object Detection](assets/screenshots/object-detection.png) | ![Scene Description](assets/screenshots/scene-description.mp4) |
 
 ### Demo Video
 
