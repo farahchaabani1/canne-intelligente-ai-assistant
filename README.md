@@ -88,7 +88,7 @@ flutter run
 
 | Voice Assistant | Object Detection | Scene Description |
 |---|---|---|
-| ![Voice Assistant](assets/screenshots/voice-assistant.jpeg) | ![Object Detection](assets/screenshots/object-detection.png) | ![Scene Description](assets/videos/scene-description.mp4) |
+| ![Voice Assistant](assets/screenshots/voice-assistant.png) | ![Object Detection](assets/screenshots/object-detection.jpg) | ![Scene Description](assets/screenshots/scene-description.jpg) |
 
 ### Demo Video
 
