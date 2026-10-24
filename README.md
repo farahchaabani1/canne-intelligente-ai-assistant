@@ -92,9 +92,9 @@ flutter run
 
 ### Demo Video
 
-<!-- Replace the URL below with your actual demonstration video link -->
+The application demo video is available in my LinkedIn post, showcasing VisiWay's main features and functionality.
 
-[Watch the Demo Video](assets/videos/Simulation.mp4)
+🎥 [Watch the Demo on LinkedIn](YOUR_LINKEDIN_POST_URL)
 
 ## 8. Current Limitations
 
