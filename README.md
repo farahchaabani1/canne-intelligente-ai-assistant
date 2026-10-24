@@ -1,22 +1,22 @@
 
-# Canne Intelligente — AI-Powered Assistive Mobile Application
+# 🦯 Canne Intelligente — AI-Powered Assistive Mobile Application
 
 **An AI-powered mobile application designed to assist visually impaired users through voice interaction, real-time object detection, and intelligent scene descriptions.**
 
-## Project Overview
+## 1. Project Overview
 
 **Canne Intelligente** is an assistive mobile application developed with **Flutter**, integrating computer vision, speech technologies, and generative AI to help visually impaired users interact with and understand their surroundings.
 
 The application combines **YOLO26n** for on-device object detection and **Google Gemini** for conversational assistance and image understanding.
 
-## Key Features
+## 2. Key Features
 
 - **Voice Assistant:** Speech-to-Text (STT), Text-to-Speech (TTS), and AI-powered conversations.
 - **Real-Time Object Detection:** Camera-based object detection using YOLO26n, with spoken feedback in French.
 - **AI Scene Description:** Natural-language descriptions of images using Gemini Vision.
 - **Accessible Interface:** Simple interactions designed to reduce reliance on visual navigation.
 
-## System Architecture
+## 3. System Architecture
 
 The application uses a hybrid architecture combining on-device AI and cloud-based intelligence.
 
@@ -29,7 +29,7 @@ The application uses a hybrid architecture combining on-device AI and cloud-base
 
 ![System Architecture](assets/architecture.png)
 
-## Technologies Used
+## 4. Technologies Used
 
 | Category | Technologies |
 |---|---|
@@ -40,7 +40,7 @@ The application uses a hybrid architecture combining on-device AI and cloud-base
 | Voice Interaction | Speech-to-Text, Text-to-Speech |
 | Development Tools | VS Code, Git, GitHub |
 
-## Project Structure
+## 5. Project Structure
 
 ```text
 canne-intelligente-ai-assistant/
@@ -61,7 +61,7 @@ canne-intelligente-ai-assistant/
 └── README.md
 ```
 
-## Getting Started
+## 6. Getting Started
 
 **Prerequisites:** Flutter SDK, Node.js, npm, Android device, and Google Gemini API key.
 
@@ -84,7 +84,7 @@ Configure the backend environment variables and mobile-to-backend connectivity b
 flutter run
 ```
 
-## Demonstration
+## 7. Demonstration
 
 ### Mobile Application
 
@@ -100,13 +100,13 @@ flutter run
 
 [Watch the Demo Video](assets/videos/Simulation.mp4)
 
-## Current Limitations
+## 8. Current Limitations
 
 - Gemini-powered features require internet connectivity.
 - Object detection performance depends on supported object classes.
 - The application is a prototype.
 
-## Author
+## 9. Author
 
 **Farah Chaabani**
 
