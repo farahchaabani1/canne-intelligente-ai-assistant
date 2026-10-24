@@ -86,9 +86,9 @@ flutter run
 
 ### Mobile Application
 
-| Voice Assistant | Object Detection | Scene Description |
-|---|---|---|
-| ![Voice Assistant](assets/screenshots/voice-assistant.png) | ![Object Detection](assets/screenshots/object-detection.jpg) | ![Scene Description](assets/screenshots/scene-description.jpg) | ![Scene Description](assets/screenshots/scene-description1.jpg) |
+| Voice Assistant | Object Detection | Scene Description | Scene Description 2 |
+|---|---|---|---|
+| ![Voice Assistant](assets/screenshots/voice-assistant.png) | ![Object Detection](assets/screenshots/object-detection.jpg) | ![Scene Description](assets/screenshots/scene-description.jpg) | ![Scene Description 2](assets/screenshots/scene-description1.jpg) |
 
 ### Demo Video
 
