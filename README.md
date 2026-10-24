@@ -1,7 +1,7 @@
 
-# 🦯 Canne Intelligente — AI-Powered Assistive Mobile Application
+# 🦯 VisiWay — Your World, Through AI
 
-**An AI-powered mobile application designed to assist visually impaired users through voice interaction, real-time object detection, and intelligent scene descriptions.**
+**An AI-powered mobile application helping visually impaired users understand their surroundings through computer vision, voice interaction, and intelligent scene descriptions.**
 
 ## 1. Project Overview
 
